@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/shansekai/Sansekai-BOT"><img src="https://raw.githubusercontent.com/shansekai/Sansekai-BOT/master/anime/original.jpg"></a>
+  <a href="https://github.com/shansekai/Sansekai-BOT"><img src="https://raw.githubusercontent.com/shansekai/yusril-grabbed-result/main/weebs/123668954_681176676120525_7298275727742867146_n.jpg"></a>
   <br>
   Sansekai BOT Whatsapp
  <br>
