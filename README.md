@@ -61,3 +61,6 @@ Fix Stuck on linux, install google chrome stable:
 > wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 > sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
+If you having problem when installing the modules (most likely when installing Quick.db), please [READ THIS](https://stackoverflow.com/questions/55152761/npm-wont-install-quick-db-returns-these-errors).
+Also, if error still occurs and don't know what to do please make an issue on [this repo](https://github.com/JoshuaWise/better-sqlite3/), thank you.
+
