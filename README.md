@@ -13,8 +13,9 @@ This project require NodeJS v12.
 ### Install
 Install Ffmpeg & Clone this project
 
-### FFMPEG
-- [DOWNLOAD](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-04-13-04/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
+### FFMPEG & LIBWEB
+- [DOWNLOAD FFMPEG](https://github.com/BtbN/FFmpeg-Builds/releases/) or [Download FFMPEG2](https://www.wikihow.com/Install-FFmpeg-on-Windows)
+- [DOWNLOAD LIBWEB](https://developers.google.com/speed/webp/download)
 
 ```bash
 > git clone https://github.com/shansekai/Sansekai-BOT
