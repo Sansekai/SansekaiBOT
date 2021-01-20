@@ -51,11 +51,10 @@ for pm2 :
 ```bash
 > pm2 stop run.js
 ```
+after running it you need to scan the qr
 
 ## PATH
 > C:\ffmpeg\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\libweb\bin
-
-after running it you need to scan the qr
 
 ## Troubleshooting
 Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
