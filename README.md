@@ -52,6 +52,9 @@ for pm2 :
 > pm2 stop run.js
 ```
 
+## PATH
+> C:\ffmpeg\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\libweb\bin
+
 after running it you need to scan the qr
 
 ## Troubleshooting
