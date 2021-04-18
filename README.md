@@ -1,60 +1,13 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/shansekai/Sansekai-BOT"><img src="https://raw.githubusercontent.com/shansekai/yusril-grabbed-result/main/weebs/123668954_681176676120525_7298275727742867146_n.jpg"></a>
-  <br>
-  Sansekai BOT Whatsapp
- <br>
-  </h1>
-
-## Getting Started
-
-This project require NodeJS v12.
-
-### Install
-Install Ffmpeg & Clone this project
+<h1>Tools For My Whatsapp Bot</h1>
 
 ### FFMPEG & LIBWEB
 - [DOWNLOAD FFMPEG](https://github.com/BtbN/FFmpeg-Builds/releases/) or [Download FFMPEG2](https://www.wikihow.com/Install-FFmpeg-on-Windows)
 - [DOWNLOAD LIBWEB](https://developers.google.com/speed/webp/download)
-
-```bash
-> git clone https://github.com/shansekai/Sansekai-BOT
-> cd imageToSticker
-```
-
-Install the dependencies:
-
-```bash
-> npm install
-> npm install -g pm2
-```
-
-### Usage
-1. run the Whatsapp bot
-
-```bash
-> npm start
-```
-
-2. run the Whatsapp bot with pm2
-```bash
-> pm2 start run.js
-> pm2 monit
-```
-3. stop the Whatsapp bot if use pm2
-
-for npm :
-```bash
-> ctrl + c
-```
-for pm2 :
-```bash
-> pm2 stop run.js
-```
-after running it you need to scan the qr
+- [DOWNLOAD TESSERACT-OCR](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe)
+- [DOWNLOAD IMAGEMAGICK](https://imagemagick.org/script/download.php)
 
 ## PATH
-> C:\ffmpeg\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\libweb\bin
+> C:\Users\Administrator\AppData\Roaming\npm;C:\ffmpeg\bin;C:\Program Files\Tesseract-OCR
 
 ## Troubleshooting
 Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
