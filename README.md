@@ -7,4 +7,4 @@
 - [DOWNLOAD IMAGEMAGICK](https://imagemagick.org/script/download.php)
 
 ## PATH
-> C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;C:\Users\Administrator\AppData\Roaming\npm;C:\ffmpeg\bin;C:\Program Files\Tesseract-OCR
+> C:\ffmpeg\bin;C:\Program Files\Tesseract-OCR
