@@ -1,5 +1,9 @@
 <h1>Tools For My Whatsapp Bot</h1>
 
+### Tools
+- /Real-ESRGAN/esrgan.bat
+- /Anime2Sketch/animesketch.bat
+
 ### FFMPEG & LIBWEB
 - [DOWNLOAD FFMPEG](https://github.com/BtbN/FFmpeg-Builds/releases/) or [Download FFMPEG2](https://www.wikihow.com/Install-FFmpeg-on-Windows)
 - [DOWNLOAD LIBWEB](https://developers.google.com/speed/webp/download)
