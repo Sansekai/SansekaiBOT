@@ -1,0 +1,37 @@
+case "cek":
+            try {
+              let liat = JSON.parse(fs.readFileSync("./prem.json"))
+              const liath = JSON.parse(fs.readFileSync("./premiumuser.json"))
+              const liatn = JSON.parse(fs.readFileSync("./prem-no.json"))
+            //let cek = await client.onWhatsApp("628128468899@s.whatsapp.net");
+            console.log(liat.length)
+            for (let i of liat) {
+              let cek = await client.onWhatsApp(i);
+              if (cek.length == 0) {
+                m.reply(`Nomor wa.me/${i.replace("@s.whatsapp.net", "")} tidak aktif`)
+                liatn.push(i.replace("@s.whatsapp.net", "@c.us"));
+              fs.writeFile('./prem-no.json', JSON.stringify(liatn), (err) => {
+                if (err) {
+                    m.reply('Terjadi kesalahan saat menyimpan data ke file JSON:', err);
+                } else {
+                    m.reply('Data berhasil disimpan ke file JSON.');
+                }
+            });
+              } else {
+                console.log(`Nomor ${i} aktif`)
+              liath.push(i.replace("@s.whatsapp.net", "@c.us"));
+              fs.writeFile('./premiumuser.json', JSON.stringify(liath), (err) => {
+                if (err) {
+                    console.error('Terjadi kesalahan saat menyimpan data ke file JSON:', err);
+                } else {
+                    console.log('Data berhasil disimpan ke file JSON.');
+                }
+            });
+              }
+            }
+            console.log(liath.length)
+            console.log(liatn.length)
+            } catch (e) {
+              m.reply("Error: " + e)
+            }
+            break
